@@ -11,8 +11,8 @@ import { MessagesService } from '../messages.service';
   selector: 'app-new-message',
   standalone: true,
   imports: [FormsModule],
-  templateUrl: './new-message.component.html',
-  styleUrl: './new-message.component.css',
+  templateUrl: './new-message.html',
+  styleUrl: './new-message.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class NewMessageComponent {

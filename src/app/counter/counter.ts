@@ -7,13 +7,13 @@ import {
   signal,
 } from '@angular/core';
 
-import { InfoMessageComponent } from '../info-message/info-message.component';
+import { InfoMessageComponent } from '../info-message/info-message';
 
 @Component({
   selector: 'app-counter',
   standalone: true,
-  templateUrl: './counter.component.html',
-  styleUrl: './counter.component.css',
+  templateUrl: './counter.html',
+  styleUrl: './counter.css',
   imports: [InfoMessageComponent],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

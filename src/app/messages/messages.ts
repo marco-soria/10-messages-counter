@@ -1,13 +1,13 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
-import { MessagesListComponent } from './messages-list/messages-list.component';
-import { NewMessageComponent } from './new-message/new-message.component';
+import { MessagesListComponent } from './messages-list/messages-list';
+import { NewMessageComponent } from './new-message/new-message';
 
 @Component({
   selector: 'app-messages',
   standalone: true,
-  templateUrl: './messages.component.html',
-  styleUrl: './messages.component.css',
+  templateUrl: './messages.html',
+  styleUrl: './messages.css',
   imports: [MessagesListComponent, NewMessageComponent],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

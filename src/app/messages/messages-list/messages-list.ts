@@ -14,8 +14,8 @@ import { AsyncPipe } from '@angular/common';
   selector: 'app-messages-list',
   standalone: true,
   //imports: [AsyncPipe],
-  templateUrl: './messages-list.component.html',
-  styleUrl: './messages-list.component.css',
+  templateUrl: './messages-list.html',
+  styleUrl: './messages-list.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class MessagesListComponent {
